@@ -1,0 +1,259 @@
+# Copyright (C) 2014 AutoCHMOD
+# This file is distributed under the same license as the AutoCHMOD package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AutoCHMOD 0.4.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/autochmod\n"
+"POT-Creation-Date: 2014-01-17 16:48:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: autochmod.php:82
+msgid "Manage settings"
+msgstr ""
+
+#: autochmod.php:82
+msgid "Settings"
+msgstr ""
+
+#: autochmod.php:118
+msgid "Modifications allowed for %s:%s"
+msgstr ""
+
+#: autochmod.php:120
+msgid "Folders NOT protected"
+msgstr ""
+
+#: autochmod.php:124
+msgid "Folders protected"
+msgstr ""
+
+#: autochmod.php:135
+msgid "Check permission config"
+msgstr ""
+
+#: autochmod.php:159 autochmod.php:406
+msgid "Beware!"
+msgstr ""
+
+#: autochmod.php:160
+msgid ""
+"At this moment the folders are write protected. In order to make changes you "
+"must before <a href=\"%s\">enable writings</a>."
+msgstr ""
+
+#: autochmod.php:227
+msgid ""
+"Folder preferences have been saved, but permissions hasn't been applied yet. "
+"In order to apply them you must re-enable the write protection."
+msgstr ""
+
+#: autochmod.php:228
+msgid "Apply and protect folders"
+msgstr ""
+
+#: autochmod.php:231
+msgid ""
+"The protection is now permanently disabled. Remember to reactivate it when "
+"you'll finish working!"
+msgstr ""
+
+#: autochmod.php:241 autochmod.php:396
+msgid "Write permissions"
+msgstr ""
+
+#: autochmod.php:250
+msgid ""
+"For safety reasons, it's good pratice to set the folders on your site as not "
+"modifiable, in order to make more difficult attacks by hackers. In this page "
+"you can remove write permissions to your site and rehabilitate them "
+"temporarily, for example, to make upgrades and installations of new plugins "
+"or themes. When you activate this plugin for the first time, the protection "
+"isn't automatically turned on. You must follow these steps:"
+msgstr ""
+
+#: autochmod.php:253
+msgid ""
+"Ensure that the permission will work nicely with your server configuration"
+msgstr ""
+
+#: autochmod.php:254
+msgid ""
+"The default set of permission isn't strong at all, but the site will work "
+"for sure. On the other hand, suggested permissions are checked on a real "
+"call, so you can trust them."
+msgstr ""
+
+#: autochmod.php:257
+msgid "Choose which directory must been kept writeable"
+msgstr ""
+
+#: autochmod.php:258
+msgid ""
+"Tipically only the upload directory must be chosen. If some of your plugins "
+"or themes use a cache on disk, you must chose those directory as well. If "
+"you don't plan to upload new media too often, you can disable writing on "
+"upload directory as well."
+msgstr ""
+
+#: autochmod.php:261
+msgid "Enable folder protection"
+msgstr ""
+
+#: autochmod.php:262
+msgid ""
+"Once you enable the protection, your choosen configuration will be applied "
+"to ALL files and directory included in your Wordpress installation dir."
+msgstr ""
+
+#: autochmod.php:265
+msgid "Disable the protection when you'll need it"
+msgstr ""
+
+#: autochmod.php:266
+msgid ""
+"There's a button on the right of the admin bar: clicking on it you can "
+"disable the protection for 10 minutes so you can update plugins, themes or "
+"whatever you want. After that amount of time the protection will be "
+"automatically restored at the first call to your site."
+msgstr ""
+
+#: autochmod.php:274
+msgid "Help"
+msgstr ""
+
+#: autochmod.php:400
+msgid "It seems you've never changed the options!"
+msgstr ""
+
+#: autochmod.php:401
+msgid ""
+"Maybe you would learn something about this plugin? There's a nice help for "
+"you, if you click the button on the top right of this page."
+msgstr ""
+
+#: autochmod.php:408
+msgid ""
+"Right now the folders <strong>are not</strong> write-protected: you can "
+"update Wordpress and install or edit themes and plugins."
+msgstr ""
+
+#: autochmod.php:409
+msgid ""
+"The protection is automatically reactivated at the end of the %d minutes "
+"required."
+msgstr ""
+
+#: autochmod.php:412
+msgid "Activate now the protection"
+msgstr ""
+
+#: autochmod.php:417
+msgid "Perfect!"
+msgstr ""
+
+#: autochmod.php:418
+msgid ""
+"Right now the folders <strong>are</strong> write-protected: you can modify "
+"only files in folders selected in the box to the left."
+msgstr ""
+
+#: autochmod.php:420
+msgid "Enable writings for %d minutes"
+msgstr ""
+
+#: autochmod.php:421
+msgid "Enable writings forever"
+msgstr ""
+
+#: autochmod.php:425
+msgid "Manage options"
+msgstr ""
+
+#: autochmod.php:429
+msgid ""
+"Select the folders where you want to keep writing permissions (subfolders "
+"will behave accordingly)."
+msgstr ""
+
+#: autochmod.php:434
+msgid ""
+"The wp-content/uploads folder is currently not writeable. Upload of new "
+"images and attachments will fail."
+msgstr ""
+
+#: autochmod.php:439
+msgid ""
+"The wp-content/blogs.dir folder is currently not writeable. Upload of new "
+"images and attachments in child blogs will fail."
+msgstr ""
+
+#: autochmod.php:448
+msgid "Define the permission set that you want to use on files and folders:"
+msgstr ""
+
+#: autochmod.php:490 autochmod.php:536
+msgid "Folder / file"
+msgstr ""
+
+#: autochmod.php:491 autochmod.php:537
+msgid "User"
+msgstr ""
+
+#: autochmod.php:492 autochmod.php:538
+msgid "Group"
+msgstr ""
+
+#: autochmod.php:493 autochmod.php:539
+msgid "All"
+msgstr ""
+
+#: autochmod.php:499
+msgid "Folder, writeable"
+msgstr ""
+
+#: autochmod.php:500 autochmod.php:509 autochmod.php:518 autochmod.php:527
+msgid "Suggested: %d %d %d"
+msgstr ""
+
+#: autochmod.php:508
+msgid "Folder, protected"
+msgstr ""
+
+#: autochmod.php:517
+msgid "File, writeable"
+msgstr ""
+
+#: autochmod.php:526
+msgid "File, protected"
+msgstr ""
+
+#: autochmod.php:543
+msgid "Update settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AutoCHMOD"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://e2net.it?autochmod"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Protect folders and files from unhautorized changes managing filesystem "
+"permissions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Franco Traversaro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "mailto:franco.traversaro@e2net.it"
+msgstr ""

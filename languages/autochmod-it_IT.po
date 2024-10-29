@@ -1,0 +1,322 @@
+# Copyright (C) 2013 Autochmod
+# This file is distributed under the same license as the Autochmod package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Autochmod 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/autochmod\n"
+"POT-Creation-Date: 2014-01-17 16:48:29+00:00\n"
+"PO-Revision-Date: 2014-01-17 16:59+0100\n"
+"Last-Translator: Franco Traversaro <f.traversaro@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: autochmod.php:82
+msgid "Manage settings"
+msgstr "Modifica le opzioni"
+
+#: autochmod.php:82
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: autochmod.php:118
+msgid "Modifications allowed for %s:%s"
+msgstr "Modifiche permesse per %s:%s"
+
+#: autochmod.php:120
+msgid "Folders NOT protected"
+msgstr "Cartelle NON protette"
+
+#: autochmod.php:124
+msgid "Folders protected"
+msgstr "Cartelle protette"
+
+#: autochmod.php:135
+msgid "Check permission config"
+msgstr "Controlla impostazioni"
+
+#: autochmod.php:159 autochmod.php:406
+msgid "Beware!"
+msgstr "Attenzione!"
+
+#: autochmod.php:160
+msgid ""
+"At this moment the folders are write protected. In order to make changes you "
+"must before <a href=\"%s\">enable writings</a>."
+msgstr ""
+"Adesso le cartelle sono protette da scrittura. Per poter fare modifiche "
+"occorre prima <a href=\"%s\">abilitare le scritture</a>."
+
+#: autochmod.php:227
+msgid ""
+"Folder preferences have been saved, but permissions hasn't been applied yet. "
+"In order to apply them you must re-enable the write protection."
+msgstr ""
+"Le impostazioni delle cartelle sono state salvate, ma i permessi non sono "
+"ancora stati applicati. Per applicarli devi riabilitare la protezione dalla "
+"scrittura."
+
+#: autochmod.php:228
+msgid "Apply and protect folders"
+msgstr "Applica e proteggi le cartelle"
+
+#: autochmod.php:231
+msgid ""
+"The protection is now permanently disabled. Remember to reactivate it when "
+"you'll finish working!"
+msgstr ""
+"La protezione è ora disabilitata permanentemente. Ricordati di riattivarla "
+"quando avrai finito di lavorare!"
+
+#: autochmod.php:241 autochmod.php:396
+msgid "Write permissions"
+msgstr "Permessi di scrittura"
+
+#: autochmod.php:250
+msgid ""
+"For safety reasons, it's good pratice to set the folders on your site as not "
+"modifiable, in order to make more difficult attacks by hackers. In this page "
+"you can remove write permissions to your site and rehabilitate them "
+"temporarily, for example, to make upgrades and installations of new plugins "
+"or themes. When you activate this plugin for the first time, the protection "
+"isn't automatically turned on. You must follow these steps:"
+msgstr ""
+"Per motivi di sicurezza è buona norma impostare le cartelle del tuo sito "
+"come non modificabili, per rendere più difficoltosi gli attacchi da parte di "
+"hacker. In questa pagina puoi togliere i permessi di scrittura al tuo sito e "
+"riabilitarli temporaneamente, per esempio per effettuare aggiornamenti e "
+"installazioni di nuovi plugin e temi. Quando attivi questo plugin per la "
+"prima volta la protezione non è attivata automaticamente. Devi seguire "
+"questi passi:"
+
+#: autochmod.php:253
+msgid ""
+"Ensure that the permission will work nicely with your server configuration"
+msgstr ""
+"Assicurati che i permessi scelti siano corretti per la tua configurazione "
+"server"
+
+#: autochmod.php:254
+msgid ""
+"The default set of permission isn't strong at all, but the site will work "
+"for sure. On the other hand, suggested permissions are checked on a real "
+"call, so you can trust them."
+msgstr ""
+"Il set di permessi di default non è abbastanza sicuro, ma il sito funzionerà "
+"di certo. D'altro canto i permessi suggeriti sono stati verificati con una "
+"vera chiamata, quindi puoi fidarti di loro."
+
+#: autochmod.php:257
+msgid "Choose which directory must been kept writeable"
+msgstr "Scegli quali cartelle devono essere mantenute scrivibili"
+
+#: autochmod.php:258
+msgid ""
+"Tipically only the upload directory must be chosen. If some of your plugins "
+"or themes use a cache on disk, you must chose those directory as well. If "
+"you don't plan to upload new media too often, you can disable writing on "
+"upload directory as well."
+msgstr ""
+"Tipicalmente deve essere selezionata solo la cartella degli upload. Se "
+"qualche tuo plugin o tema usa una cache su disco devi selezionare anche "
+"quelle cartelle. Se pensi di non dovere aggiungere nuovi contenuti "
+"multimediali troppo spesso puoi anche disabilitare le scritture nella "
+"cartella di upload."
+
+#: autochmod.php:261
+msgid "Enable folder protection"
+msgstr "Abilita la protezione delle cartelle"
+
+#: autochmod.php:262
+msgid ""
+"Once you enable the protection, your choosen configuration will be applied "
+"to ALL files and directory included in your Wordpress installation dir."
+msgstr ""
+"Quando abiliterai la protezione, la configurazione scelta verrà applicata a "
+"TUTTI i file e le cartelle inclusi nella directory di installazione di "
+"Wordpress."
+
+#: autochmod.php:265
+msgid "Disable the protection when you'll need it"
+msgstr "Disabilita la protezione quando ti serve"
+
+#: autochmod.php:266
+msgid ""
+"There's a button on the right of the admin bar: clicking on it you can "
+"disable the protection for 10 minutes so you can update plugins, themes or "
+"whatever you want. After that amount of time the protection will be "
+"automatically restored at the first call to your site."
+msgstr ""
+"C'è un pulsante sulla destra della barra di amministrazione: cliccando su di "
+"esso disabiliterai la protezione per 10 minuti in modo da poter aggiornare "
+"plugin, temi o qualsiasi cosa vuoi. Dopo quel lasso di tempo la protezione "
+"verrà automaticamente ripristinata alla prima chiamata al tuo sito."
+
+#: autochmod.php:274
+msgid "Help"
+msgstr "Aiuto"
+
+#: autochmod.php:400
+msgid "It seems you've never changed the options!"
+msgstr "Sembra che non hai mai cambiato le opzioni!"
+
+#: autochmod.php:401
+msgid ""
+"Maybe you would learn something about this plugin? There's a nice help for "
+"you, if you click the button on the top right of this page."
+msgstr ""
+"Magari vuoi imparare qualcosa su questo plugin? Ci sono delle belle "
+"spiegazioni per te, se clicchi sul pulsante in alto a destra in questa "
+"pagina."
+
+#: autochmod.php:408
+msgid ""
+"Right now the folders <strong>are not</strong> write-protected: you can "
+"update Wordpress and install or edit themes and plugins."
+msgstr ""
+"Ora le cartelle <strong>non sono</strong> protette da scrittura: puoi "
+"aggiornare Wordpress e installare o modificare temi e plugin."
+
+#: autochmod.php:409
+msgid ""
+"The protection is automatically reactivated at the end of the %d minutes "
+"required."
+msgstr ""
+"La protezione è automaticamente riattivata alla fine dei %d minuti richiesti."
+
+#: autochmod.php:412
+msgid "Activate now the protection"
+msgstr "Attiva ora la protezione"
+
+#: autochmod.php:417
+msgid "Perfect!"
+msgstr "Perfetto!"
+
+#: autochmod.php:418
+msgid ""
+"Right now the folders <strong>are</strong> write-protected: you can modify "
+"only files in folders selected in the box to the left."
+msgstr ""
+"Ora le cartelle <strong>sono</strong> protette da scrittura: puoi modificare "
+"solo i file nelle cartelle selezionate nel box a sinistra."
+
+#: autochmod.php:420
+msgid "Enable writings for %d minutes"
+msgstr "Abilita le scritture per %d minuti"
+
+#: autochmod.php:421
+msgid "Enable writings forever"
+msgstr "Abilita permanentemente le scritture"
+
+#: autochmod.php:425
+msgid "Manage options"
+msgstr "Gestisci le opzioni"
+
+#: autochmod.php:429
+msgid ""
+"Select the folders where you want to keep writing permissions (subfolders "
+"will behave accordingly)."
+msgstr ""
+"Seleziona le cartelle in cui vuoi mantenere i permessi di scrittura (le "
+"sottocartelle verranno impostate alla stessa maniera)"
+
+#: autochmod.php:434
+msgid ""
+"The wp-content/uploads folder is currently not writeable. Upload of new "
+"images and attachments will fail."
+msgstr ""
+"La cartella wp-content/upload al momento non è scrivibile. Non sarà "
+"possibile caricare nuove immagini ed allegati."
+
+#: autochmod.php:439
+msgid ""
+"The wp-content/blogs.dir folder is currently not writeable. Upload of new "
+"images and attachments in child blogs will fail."
+msgstr ""
+"La cartella wp-content/blogs.dir al momento non è scrivibile. Non sarà "
+"possibile caricare nuove immagini ed allegati nei blog del network."
+
+#: autochmod.php:448
+msgid "Define the permission set that you want to use on files and folders:"
+msgstr "Definisci i permessi che vuoi imporre a file e cartelle:"
+
+#: autochmod.php:490 autochmod.php:536
+msgid "Folder / file"
+msgstr "Cartella / file"
+
+#: autochmod.php:491 autochmod.php:537
+msgid "User"
+msgstr "Utente"
+
+#: autochmod.php:492 autochmod.php:538
+msgid "Group"
+msgstr "Gruppo"
+
+#: autochmod.php:493 autochmod.php:539
+msgid "All"
+msgstr "Tutti"
+
+#: autochmod.php:499
+msgid "Folder, writeable"
+msgstr "Cartella, scrivibile"
+
+#: autochmod.php:500 autochmod.php:509 autochmod.php:518 autochmod.php:527
+msgid "Suggested: %d %d %d"
+msgstr "Suggerito: %d %d %d"
+
+#: autochmod.php:508
+msgid "Folder, protected"
+msgstr "Cartella, protetta"
+
+#: autochmod.php:517
+msgid "File, writeable"
+msgstr "File, scrivibile"
+
+#: autochmod.php:526
+msgid "File, protected"
+msgstr "File, protetto"
+
+#: autochmod.php:543
+msgid "Update settings"
+msgstr "Salva impostazioni"
+
+#. Plugin Name of the plugin/theme
+msgid "AutoCHMOD"
+msgstr "AutoCHMOD"
+
+#. Plugin URI of the plugin/theme
+msgid "http://e2net.it?autochmod"
+msgstr "http://e2net.it?autochmod"
+
+#. Description of the plugin/theme
+msgid ""
+"Protect folders and files from unhautorized changes managing filesystem "
+"permissions."
+msgstr ""
+"Proteggi file e cartelle da modifiche non autorizzate mediante la gestione "
+"dei permessi a filesystem."
+
+#. Author of the plugin/theme
+msgid "Franco Traversaro"
+msgstr "Franco Traversaro"
+
+#. Author URI of the plugin/theme
+msgid "mailto:franco.traversaro@e2net.it"
+msgstr "mailto:franco.traversaro@e2net.it"
+
+#~ msgid ""
+#~ "The default set of permission will work in a standard configuration "
+#~ "model, where the PHP runs as the user owner of the site. If PHP runs as a "
+#~ "user different from the one who upload the files, you must change the "
+#~ "options."
+#~ msgstr ""
+#~ "Il set di permessi di default è adatto a un modello di configurazione "
+#~ "standard, nel quale PHP è eseguito con lo stesso utente proprietario del "
+#~ "sito. Se PHP viene eseguito con un utente differente da quello che può "
+#~ "caricare i file devi cambiare le opzioni."
+
+#~ msgid "Autochmod"
+#~ msgstr "Autochmod"
